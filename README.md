@@ -160,6 +160,13 @@ Cobertura de la suite:
 - `tests/Feature/ProductoInternoTest.php`: endpoint interno con/sin `X-Internal-Key`.
 - `tests/Unit/ProductoServiceTest.php`: reglas de negocio y eventos.
 
+## Contribuir
+
+El flujo de ramas, mensajes de commit y Pull Requests está en
+[`CONTRIBUTING.md`](CONTRIBUTING.md). Resumen: `main` siempre estable,
+una rama por cambio (`feat/...`, `fix/...`, `docs/...`) y PR con
+**Squash and merge**.
+
 ## Notas de producción
 
 - Sustituir la clave compartida del endpoint interno por autenticación robusta y red privada (o mover el acceso a `config` + servicio interno).
